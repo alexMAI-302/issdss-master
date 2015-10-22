@@ -8,6 +8,7 @@ using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 using DSS.DSS.Classes;
+using CommonModel;
 
 namespace DSS.DSS
 {
@@ -812,15 +813,16 @@ namespace DSS.DSS
                 }
                 reader.Close();
             }
-
+            Action<int> action;
             switch (modelID)
             {
                 case modelsList.ПростаяСМО:
                     Modeling.TraceString = "";
                     var smoModel = new PSS.Sample.SMOModel(null, "Модель СМО");
-#warning запустить отдельный поток
-                    smoModel.PERFORM();
-
+                    action = smoModel.PERFORM;
+                    action.BeginInvoke(0, null, null);
+                    
+                    Response.Redirect("#");
                     #region сохранение корм
                                                     
                     
@@ -846,19 +848,22 @@ namespace DSS.DSS
                 case modelsList.ВычислительнаяСеть:
                     Modeling.TraceString = "";
                     var vs = new PSS.VS.VS(null, "Модель ВС");
-#warning запустить отдельный поток
-                    vs.PERFORM();
+                    action = vs.PERFORM;
+                    action.BeginInvoke(0, null, null);
+                    Response.Redirect("#");
                     break;
 
                 case modelsList.Лифт:
                     Modeling.TraceString = "ДАННАЯ МОДЕЛЬ ЕЩЕ НЕ РЕАЛИЗОВАНА";
+                    Response.Redirect("#");
                     break;
 
                 case modelsList.МоделиНЕТ:
                     Modeling.TraceString = "ПРОИЗОШЛА ОШИБКА";
+                    Response.Redirect("#");
                     break;
             }
-            Response.Redirect("#");
+            
 
         }
     }
