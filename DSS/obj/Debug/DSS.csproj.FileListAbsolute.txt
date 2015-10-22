@@ -1,0 +1,7 @@
+C:\Users\Alex\Desktop\issdss-master\DSS\bin\DSS.dll.config
+C:\Users\Alex\Desktop\issdss-master\DSS\bin\DSS.dll
+C:\Users\Alex\Desktop\issdss-master\DSS\bin\DSS.pdb
+C:\Users\Alex\Desktop\issdss-master\DSS\obj\Debug\DSS.csprojResolveAssemblyReference.cache
+C:\Users\Alex\Desktop\issdss-master\DSS\obj\Debug\DSS.dll
+C:\Users\Alex\Desktop\issdss-master\DSS\obj\Debug\DSS.pdb
+C:\Users\Alex\Desktop\issdss-master\DSS\bin\PSS.dll
