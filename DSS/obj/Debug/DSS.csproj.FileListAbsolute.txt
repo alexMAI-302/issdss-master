@@ -5,3 +5,10 @@ C:\Users\Alex\Desktop\issdss-master\DSS\obj\Debug\DSS.csprojResolveAssemblyRefer
 C:\Users\Alex\Desktop\issdss-master\DSS\obj\Debug\DSS.dll
 C:\Users\Alex\Desktop\issdss-master\DSS\obj\Debug\DSS.pdb
 C:\Users\Alex\Desktop\issdss-master\DSS\bin\PSS.dll
+C:\Users\Alex\Documents\GitHub\issdss-master\DSS\bin\DSS.dll.config
+C:\Users\Alex\Documents\GitHub\issdss-master\DSS\bin\DSS.dll
+C:\Users\Alex\Documents\GitHub\issdss-master\DSS\bin\DSS.pdb
+C:\Users\Alex\Documents\GitHub\issdss-master\DSS\bin\PSS.dll
+C:\Users\Alex\Documents\GitHub\issdss-master\DSS\obj\Debug\DSS.csprojResolveAssemblyReference.cache
+C:\Users\Alex\Documents\GitHub\issdss-master\DSS\obj\Debug\DSS.dll
+C:\Users\Alex\Documents\GitHub\issdss-master\DSS\obj\Debug\DSS.pdb
